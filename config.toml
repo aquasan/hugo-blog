@@ -1,0 +1,42 @@
+baseURL = "http://sanzay.me/"
+languageCode = "en-us"
+title = "Sanjay Pandey"
+theme = "casper3"
+author = "Sanjay Pandey"
+paginate = 5
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+copyright = "Copyright © 2020, Sanjay Pandey; all rights reserved."
+
+[params]
+  logo = ""
+  twitter = "https://twitter.com/psanzayy"
+  github = "https://github.com/aquasan"
+  mainSections = ["post"]
+
+[menus]
+  [[menus.main]]
+    name = "about"
+    url = "/about"
+    weight = 10
+  
+  [[menus.main]]
+    name = "Articles"
+    url = "/articles"
+    weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
+
